@@ -10,7 +10,7 @@ window.onload = () => {
   document.querySelector("#excuse").innerHTML = generateExcuse();
   console.log("Hello Rigo from the console!");
 };
-let generateExcuse = () => {
+const generateExcuse = () => {
   let who = ["The dog", "My grandma", "His turtle", "My bird"];
   let action = ["ate", "peed", "crushed", "broke"];
   let what = ["my homework", "the keys", "the car"];
